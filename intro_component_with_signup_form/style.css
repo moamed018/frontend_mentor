@@ -181,6 +181,10 @@ p.error {
 
 /* Mobile Styles */
 @media (max-width: 960px) {
+    body {
+        background-image: url(./images/bg-intro-mobile.png);
+    }
+
     section {
         flex-direction: column;
         gap: 3rem;
