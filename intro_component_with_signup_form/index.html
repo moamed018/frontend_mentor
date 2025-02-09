@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- displays site properly based on user's device -->
+
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./images/favicon-32x32.png"
+        />
+
+        <title>Frontend Mentor | Intro component with sign up form</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <section>
+            <div class="text-content">
+                <h2>Learn to code by watching others</h2>
+                <p>
+                    See how experienced developers solve problems in real-time.
+                    Watching scripted tutorials is great, but understanding how
+                    developers think is invaluable.
+                </p>
+            </div>
+
+            <div class="form-content">
+                <button class="try-button">
+                    <b>Try it free 7 days</b> then $20/mo. thereafter
+                </button>
+
+                <form id="form">
+                    <p id="submitted">The data is submitted 🎉</p>
+                    <div class="input-div" id="input-first-div">
+                        <input
+                            type="text"
+                            name="First Name"
+                            id="input-first"
+                            placeholder="First Name"
+                        />
+                        <p class="error"></p>
+                    </div>
+                    <div class="input-div" id="input-last-div">
+                        <input
+                            type="text"
+                            name="Last Name"
+                            id="input-last"
+                            placeholder="Last Name"
+                        />
+                        <p class="error"></p>
+                    </div>
+                    <div class="input-div" id="input-email-div">
+                        <input
+                            type="text"
+                            name="Email"
+                            id="input-email"
+                            placeholder="Email Address"
+                        />
+                        <p class="error"></p>
+                    </div>
+                    <div class="input-div" id="input-password-div">
+                        <input
+                            type="password"
+                            name="Password"
+                            id="input-password"
+                            placeholder="Password"
+                        />
+                        <p class="error"></p>
+                    </div>
+
+                    <button class="btn-form">Claim your free trial</button>
+
+                    <p>
+                        By clicking the button, you are agreeing to our
+                        <a href="#">Terms and Services</a>
+                    </p>
+                </form>
+            </div>
+        </section>
+        <!-- <footer>
+            <p class="attribution">
+                Challenge by
+                <a
+                    href="https://www.frontendmentor.io?ref=challenge"
+                    target="_blank"
+                    >Frontend Mentor</a
+                >. Coded by <a href="#">Mohamed Magdy</a>.
+            </p>
+        </footer> -->
+
+        <script src="main.js"></script>
+    </body>
+</html>
